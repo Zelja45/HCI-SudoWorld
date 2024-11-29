@@ -3,8 +3,116 @@
   "WorkspaceRootPath": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\services\\sudokuvaluesgridservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\services\\sudokuvaluesgridservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\model\\sudokugrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\model\\sudokugrid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\view\\components\\sudokugridview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\view\\components\\sudokugridview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\model\\sudokuboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\model\\sudokuboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\view\\components\\sudokucellview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\view\\components\\sudokucellview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\viewmodel\\sudokugridviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\viewmodel\\sudokugridviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\view\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\view\\homeview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\view\\homeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\view\\homeview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\view\\components\\sudokucellview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\view\\components\\sudokucellview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\viewmodel\\sudokucellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\viewmodel\\sudokucellviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\services\\boardcellmediatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\services\\boardcellmediatorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\model\\cellindex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\model\\cellindex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\view\\registerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\view\\registerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\services\\navigationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\services\\navigationservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\viewmodel\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\viewmodel\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\viewmodel\\core\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\viewmodel\\core\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\viewmodel\\core\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\viewmodel\\core\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\model\\sudokugame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\model\\sudokugame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\view\\sudokugameview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\view\\sudokugameview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\resources\\styles\\buttonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\resources\\styles\\buttonstyles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\resources\\appresources.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\resources\\appresources.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\view\\components\\bottommenuitem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\view\\components\\bottommenuitem.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\view\\components\\bottommenuitem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|solutionrelative:sudoworld\\view\\components\\bottommenuitem.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B97961D4-B84E-4C9A-BD6C-8515B74D3B81}|SudoWorld\\SudoWorld.csproj|c:\\users\\nikola\\desktop\\hci-sudoworld\\sudoworld\\sudoworld\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -18,36 +126,364 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\App.xaml",
+              "RelativeDocumentMoniker": "SudoWorld\\App.xaml",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\App.xaml",
+              "RelativeToolTip": "SudoWorld\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-20T12:27:51.321Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SudokuBoard.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\Model\\SudokuBoard.cs",
+              "RelativeDocumentMoniker": "SudoWorld\\Model\\SudokuBoard.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\Model\\SudokuBoard.cs",
+              "RelativeToolTip": "SudoWorld\\Model\\SudokuBoard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T18:19:36.536Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SudokuGridView.xaml",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\View\\Components\\SudokuGridView.xaml",
+              "RelativeDocumentMoniker": "SudoWorld\\View\\Components\\SudokuGridView.xaml",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\View\\Components\\SudokuGridView.xaml",
+              "RelativeToolTip": "SudoWorld\\View\\Components\\SudokuGridView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-28T15:37:27.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\App.xaml.cs",
+              "RelativeDocumentMoniker": "SudoWorld\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\App.xaml.cs",
+              "RelativeToolTip": "SudoWorld\\App.xaml.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAuwB4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T14:19:35.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SudokuGrid.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\Model\\SudokuGrid.cs",
+              "RelativeDocumentMoniker": "SudoWorld\\Model\\SudokuGrid.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\Model\\SudokuGrid.cs",
+              "RelativeToolTip": "SudoWorld\\Model\\SudokuGrid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:34:06.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SudokuValuesGridService.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\Services\\SudokuValuesGridService.cs",
+              "RelativeDocumentMoniker": "SudoWorld\\Services\\SudokuValuesGridService.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\Services\\SudokuValuesGridService.cs",
+              "RelativeToolTip": "SudoWorld\\Services\\SudokuValuesGridService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwC4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:19:44.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeView.xaml",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\View\\HomeView.xaml",
+              "RelativeDocumentMoniker": "SudoWorld\\View\\HomeView.xaml",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\View\\HomeView.xaml",
+              "RelativeToolTip": "SudoWorld\\View\\HomeView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T13:21:04.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SudokuGridViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\ViewModel\\SudokuGridViewModel.cs",
+              "RelativeDocumentMoniker": "SudoWorld\\ViewModel\\SudokuGridViewModel.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\ViewModel\\SudokuGridViewModel.cs",
+              "RelativeToolTip": "SudoWorld\\ViewModel\\SudokuGridViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T22:25:28.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SudokuCellView.xaml",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\View\\Components\\SudokuCellView.xaml",
+              "RelativeDocumentMoniker": "SudoWorld\\View\\Components\\SudokuCellView.xaml",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\View\\Components\\SudokuCellView.xaml",
+              "RelativeToolTip": "SudoWorld\\View\\Components\\SudokuCellView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-28T15:12:26.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\View\\HomeView.xaml.cs",
+              "RelativeDocumentMoniker": "SudoWorld\\View\\HomeView.xaml.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\View\\HomeView.xaml.cs",
+              "RelativeToolTip": "SudoWorld\\View\\HomeView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T16:33:07.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SudokuCellView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\View\\Components\\SudokuCellView.xaml.cs",
+              "RelativeDocumentMoniker": "SudoWorld\\View\\Components\\SudokuCellView.xaml.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\View\\Components\\SudokuCellView.xaml.cs",
+              "RelativeToolTip": "SudoWorld\\View\\Components\\SudokuCellView.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T15:22:27.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BoardCellMediatorService.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\Services\\BoardCellMediatorService.cs",
+              "RelativeDocumentMoniker": "SudoWorld\\Services\\BoardCellMediatorService.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\Services\\BoardCellMediatorService.cs",
+              "RelativeToolTip": "SudoWorld\\Services\\BoardCellMediatorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:27:02.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SudokuCellViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\ViewModel\\SudokuCellViewModel.cs",
+              "RelativeDocumentMoniker": "SudoWorld\\ViewModel\\SudokuCellViewModel.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\ViewModel\\SudokuCellViewModel.cs",
+              "RelativeToolTip": "SudoWorld\\ViewModel\\SudokuCellViewModel.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAuwFEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T20:52:21.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CellIndex.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\Model\\CellIndex.cs",
+              "RelativeDocumentMoniker": "SudoWorld\\Model\\CellIndex.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\Model\\CellIndex.cs",
+              "RelativeToolTip": "SudoWorld\\Model\\CellIndex.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T14:29:37.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RegisterView.xaml",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\View\\RegisterView.xaml",
+              "RelativeDocumentMoniker": "SudoWorld\\View\\RegisterView.xaml",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\View\\RegisterView.xaml",
+              "RelativeToolTip": "SudoWorld\\View\\RegisterView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T23:50:39.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "SudoWorld\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "SudoWorld\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T14:03:00.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "NavigationServices.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\Services\\NavigationServices.cs",
+              "RelativeDocumentMoniker": "SudoWorld\\Services\\NavigationServices.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\Services\\NavigationServices.cs",
+              "RelativeToolTip": "SudoWorld\\Services\\NavigationServices.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwB8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T14:28:07.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\ViewModel\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "SudoWorld\\ViewModel\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\ViewModel\\RegisterViewModel.cs",
+              "RelativeToolTip": "SudoWorld\\ViewModel\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T14:15:22.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\ViewModel\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "SudoWorld\\ViewModel\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\ViewModel\\HomeViewModel.cs",
+              "RelativeToolTip": "SudoWorld\\ViewModel\\HomeViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T14:02:42.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\ViewModel\\Core\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "SudoWorld\\ViewModel\\Core\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\ViewModel\\Core\\RelayCommand.cs",
+              "RelativeToolTip": "SudoWorld\\ViewModel\\Core\\RelayCommand.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T21:34:00.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\ViewModel\\Core\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "SudoWorld\\ViewModel\\Core\\BaseViewModel.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\ViewModel\\Core\\BaseViewModel.cs",
+              "RelativeToolTip": "SudoWorld\\ViewModel\\Core\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T14:36:38.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SudokuGame.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\Model\\SudokuGame.cs",
+              "RelativeDocumentMoniker": "SudoWorld\\Model\\SudokuGame.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\Model\\SudokuGame.cs",
+              "RelativeToolTip": "SudoWorld\\Model\\SudokuGame.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T17:55:35.519Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\MainWindow.xaml",
               "RelativeDocumentMoniker": "SudoWorld\\MainWindow.xaml",
               "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\MainWindow.xaml",
               "RelativeToolTip": "SudoWorld\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-20T12:22:53.48Z",
+              "WhenOpened": "2024-11-27T17:17:03.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SudokuGameView.xaml",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\View\\SudokuGameView.xaml",
+              "RelativeDocumentMoniker": "SudoWorld\\View\\SudokuGameView.xaml",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\View\\SudokuGameView.xaml",
+              "RelativeToolTip": "SudoWorld\\View\\SudokuGameView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T16:51:07.46Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ButtonStyles.xaml",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\Resources\\Styles\\ButtonStyles.xaml",
+              "RelativeDocumentMoniker": "SudoWorld\\Resources\\Styles\\ButtonStyles.xaml",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\Resources\\Styles\\ButtonStyles.xaml",
+              "RelativeToolTip": "SudoWorld\\Resources\\Styles\\ButtonStyles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T13:32:43.243Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 25,
+              "Title": "AppResources.xaml",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\Resources\\AppResources.xaml",
+              "RelativeDocumentMoniker": "SudoWorld\\Resources\\AppResources.xaml",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\Resources\\AppResources.xaml",
+              "RelativeToolTip": "SudoWorld\\Resources\\AppResources.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-27T13:57:46.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BottomMenuItem.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\View\\Components\\BottomMenuItem.xaml.cs",
+              "RelativeDocumentMoniker": "SudoWorld\\View\\Components\\BottomMenuItem.xaml.cs",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\View\\Components\\BottomMenuItem.xaml.cs",
+              "RelativeToolTip": "SudoWorld\\View\\Components\\BottomMenuItem.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAYwCgAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T17:15:10.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BottomMenuItem.xaml",
+              "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\View\\Components\\BottomMenuItem.xaml",
+              "RelativeDocumentMoniker": "SudoWorld\\View\\Components\\BottomMenuItem.xaml",
+              "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\View\\Components\\BottomMenuItem.xaml",
+              "RelativeToolTip": "SudoWorld\\View\\Components\\BottomMenuItem.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-21T16:52:50.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "SudoWorld\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\Nikola\\Desktop\\HCI-SudoWorld\\SudoWorld\\SudoWorld\\MainWindow.xaml.cs",
               "RelativeToolTip": "SudoWorld\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T12:22:50.916Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T12:22:50.916Z"
             }
           ]
         }

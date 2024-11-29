@@ -1,0 +1,72 @@
+﻿<UserControl x:Class="SudoWorld.View.HomeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:SudoWorld.View"
+             xmlns:controls="clr-namespace:SudoWorld.View.Controls"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d"
+             d:DesignHeight="600"
+             d:DesignWidth="400"
+             FontFamily="{DynamicResource MaterialDesignFont}"
+            >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" />
+           
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Vertical"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+            <Image Grid.Row="0"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Bottom"
+                   Source="{StaticResource LogoBlue}"
+                   Height="100"
+                   Width="100" />
+            <TextBlock Text="Tekst"
+                       TextWrapping="Wrap"
+                       Style="{StaticResource MaterialDesignBody1TextBlock}"
+                       Foreground="{DynamicResource MaterialDesign.Brush.Secondary.Light}"
+                      />
+        </StackPanel>
+           
+        <Button Grid.Row="1"
+                materialDesign:ButtonAssist.CornerRadius="15"
+                Style="{StaticResource MaterialDesignRaisedButton}"
+                Command="{Binding NavigateToNewGameCommand}"
+                VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Play game" />
+        </Button>
+        <materialDesign:ColorZone Padding="10" Grid.Row="2"
+                                  materialDesign:ElevationAssist.Elevation="Dp4"
+                                  ClipToBounds="True"
+                                  CornerRadius="10"
+                                  Mode="PrimaryDark">
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                
+                <controls:BottomMenuItem Grid.Column="0"
+                                         Command="{Binding NavigateToRegisterCommand}" 
+                                         Icon="{StaticResource HomeIcon}"
+                                         Foreground="White" />
+                <controls:BottomMenuItem Grid.Column="1"
+                                         Command="{Binding NavigateToRegisterCommand}"
+                                         Icon="{StaticResource AchievementIcon}"
+                                         Foreground="White" />
+                <controls:BottomMenuItem Grid.Column="2"
+                                         Command="{Binding NavigateToRegisterCommand}"
+                                         Icon="{StaticResource LoginIcon}"
+                                         Foreground="White" />
+            </Grid>
+        </materialDesign:ColorZone>
+    </Grid>
+</UserControl>

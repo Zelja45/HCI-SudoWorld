@@ -7,7 +7,51 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="View\Components\BottomMenuItem.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Components\SudokuCellView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Components\SudokuGridView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\HomeView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\RegisterView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\SudokuGameView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\AppResources.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Resources\Styles\ButtonStyles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Components\BottomMenuItem.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Components\SudokuCellView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Components\SudokuGridView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\HomeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\RegisterView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\SudokuGameView.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

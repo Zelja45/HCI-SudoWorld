@@ -1,9 +1,46 @@
-﻿<Application x:Class="SudoWorld.App"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+﻿    <Application x:Class="SudoWorld.App"
+                 xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              xmlns:local="clr-namespace:SudoWorld"
-             StartupUri="MainWindow.xaml">
+                
+                 xmlns:viewModel="clr-namespace:SudoWorld.ViewModel"
+             xmlns:view="clr-namespace:SudoWorld.View">
     <Application.Resources>
-         
-    </Application.Resources>
-</Application>
+        
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <materialDesign:CustomColorTheme BaseTheme="Inherit"
+                                             ColorAdjustment="{materialDesign:ColorAdjustment}"
+                                             PrimaryColor="#007a91"
+                                             SecondaryColor="#676f73" />
+
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.ObsoleteBrushes.xaml" />
+
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesign2.Defaults.xaml" />
+                <ResourceDictionary Source="Resources/Styles/ButtonStyles.xaml" />
+                <ResourceDictionary Source="Resources/AppResources.xaml" />
+
+                
+                
+
+            </ResourceDictionary.MergedDictionaries>
+            <BitmapImage x:Key="LogoWhite"
+                         UriSource="Resources/sudoku-64-white.png" />
+            <BitmapImage x:Key="LogoBlue"
+                         UriSource="Resources/sudoku-64-blue.png" />
+
+
+            <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
+                <view:HomeView />
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:RegisterViewModel}">
+                <view:RegisterView />
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:SudokuGameViewModel}">
+                <view:SudokuGameView />
+            </DataTemplate>
+        </ResourceDictionary>
+        
+        </Application.Resources>
+    </Application>

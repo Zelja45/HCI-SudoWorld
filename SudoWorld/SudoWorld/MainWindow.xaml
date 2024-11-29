@@ -4,9 +4,71 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SudoWorld"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        WindowStyle="None"
+        Height="600"
+        Width="400"
+        Title="MainWindow"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        ResizeMode="CanMinimize"
+        WindowStartupLocation="CenterScreen">
+    <WindowChrome.WindowChrome>
+        <WindowChrome GlassFrameThickness="0"
+                      CornerRadius="35"
+                      CaptionHeight="0" />
+    </WindowChrome.WindowChrome>
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" />
+            <RowDefinition Height="*" />
 
+        </Grid.RowDefinitions>
+
+        <materialDesign:ColorZone x:Name="header" Padding="5" MouseDown="header_MouseDown"
+                                  materialDesign:ElevationAssist.Elevation="Dp4"
+                                  ClipToBounds="True"
+                                  CornerRadius="0"
+                                  Mode="PrimaryDark">
+            
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="{StaticResource LogoWhite}" Height="25" Width="25" Margin="5,0,0,0"/>
+                        <TextBlock Margin="10,0,0,0"
+                                   VerticalAlignment="Center"
+                                   Text="SudoWorld" />
+                    </StackPanel>
+                    <StackPanel Grid.Column="1" Grid.Row="0" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Right">
+                    <Button x:Name="minimizeBtn" Height="30"
+                            Width="30"
+                            Style="{DynamicResource MaterialDesignIconButton}"
+                            Foreground="White" Click="minimizeBtn_Click">
+                        <materialDesign:PackIcon Kind="WindowMinimize" />
+                    </Button>
+                    <Button x:Name="closeBtn" Height="30"
+                            Width="30"
+                            Style="{DynamicResource MaterialDesignIconButton}"
+                            Foreground="White" Click="closeBtn_Click">
+                        <materialDesign:PackIcon Kind="CloseBold"
+                                                 Width="20"
+                                                 Height="20" />
+                    </Button>
+                    
+                </StackPanel>
+                </Grid>
+          
+        </materialDesign:ColorZone>
+        <ContentPresenter Validation.ErrorTemplate="{x:Null}"
+                          Grid.Row="1"
+                          VerticalAlignment="Stretch"
+                          HorizontalAlignment="Stretch"
+                          Content="{Binding Navigation.CurrentView}" />
     </Grid>
 </Window>
+
+    
