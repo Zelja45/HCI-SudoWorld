@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\Nikola\Desktop\HCI-SudoWorld\SudoWorld\SudoWorld\App.xaml
-9-1681168472
+101026653623
 
-30-1347260767
+31-693297830
 2031435790606
-MainWindow.xaml;Resources\AppResources.xaml;Resources\Styles\ButtonStyles.xaml;View\Components\BottomMenuItem.xaml;View\Components\SudokuCellView.xaml;View\Components\SudokuGridView.xaml;View\HomeView.xaml;View\RegisterView.xaml;View\SudokuGameView.xaml;
+MainWindow.xaml;Resources\AppResources.xaml;Resources\Styles\ButtonStyles.xaml;View\Components\BottomMenuItem.xaml;View\Components\SudokuBoardView.xaml;View\Components\SudokuCellView.xaml;View\Components\SudokuGridView.xaml;View\HomeView.xaml;View\RegisterView.xaml;View\SudokuGameView.xaml;
 
-False
+True
 

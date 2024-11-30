@@ -4,24 +4,129 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:SudoWorld.View"
+             xmlns:components="clr-namespace:SudoWorld.View.Components"
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" 
              d:DesignHeight="600" d:DesignWidth="400">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="50" />
+            <RowDefinition Height="auto" />
             <RowDefinition Height="*" />
-            
+
         </Grid.RowDefinitions>
-        <StackPanel Orientation="Horizontal"  VerticalAlignment="Center">
-            <Button Margin="10,0,0,0" Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}"
-                    ToolTip="MaterialDesignFloatingActionMiniLightButton">
-                <materialDesign:PackIcon Width="25"
-                                         Height="25"
-                                         Kind="ArrowLeft" Foreground="White" />
-            </Button>
-            <Label Content="Time" VerticalAlignment="Center" HorizontalAlignment="Right"></Label>
-        </StackPanel>
+        <Grid Grid.Row="1">
+            <Grid.Resources>
+                <Style x:Key="BorderStyle"
+                       TargetType="Border">
+                    <Setter Property="Width" Value="20"/>
+                </Style>
+            </Grid.Resources>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="auto" />
+                </Grid.ColumnDefinitions>
+                    <StackPanel Orientation="Horizontal"
+                            Margin="20,5,20,5"
+                            HorizontalAlignment="Stretch">
+                    <StackPanel Orientation="Vertical">
+                        <ToggleButton Content="{materialDesign:PackIcon Kind=Pen,                                                         Size=21}"
+                                      IsChecked="{Binding BoardViewModel.IsTmpValuesEnabled}"
+                                      Style="{StaticResource MaterialDesignFlatPrimaryToggleButton}" />
+                        <Label Content="Pen"
+                               Foreground="{DynamicResource MaterialDesign.Brush.Primary.Dark}" />
+                    </StackPanel>
+                    
+                    <Border Style="{StaticResource BorderStyle}" />
+                    <StackPanel Orientation="Vertical">
+                        <ToggleButton Content="{materialDesign:PackIcon Kind=Eraser,                                                         Size=21}"
+                                      IsChecked="{Binding BoardViewModel.IsEraseEnabled}"
+                                      Style="{StaticResource MaterialDesignFlatPrimaryToggleButton}" />
+                        <Label Content="Erase"
+                               Foreground="{DynamicResource MaterialDesign.Brush.Primary.Dark}" />
+                    </StackPanel>
+                    <Border Style="{StaticResource BorderStyle}" />
+                    <StackPanel Orientation="Vertical">
+                        <materialDesign:Badged Badge="100"
+                                               BadgeColorZoneMode="Light">
+                            <Button  Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}">
+                                <materialDesign:PackIcon Width="20"
+                                                         Height="20"
+                                                         Kind="QuestionMark" />
+                            </Button>
+                        </materialDesign:Badged>
+                        <Label Content="Hint"
+                               Foreground="{DynamicResource MaterialDesign.Brush.Primary.Dark}" />
+                    </StackPanel>
+                   
+                </StackPanel>
+                <StackPanel Grid.Column="1"
+                            Orientation="Horizontal" Margin="0,5,20,5">
+                    <materialDesign:PackIcon Grid.Column="1"
+                                             Kind="Timer"
+                                             HorizontalAlignment="Right"
+                                             VerticalAlignment="Center"
+                                             Foreground="{DynamicResource MaterialDesign.Brush.Primary.Dark }"
+                                             Height="25"
+                                             Width="25" />
+                    <TextBlock Text="vrijeme"
+                               Foreground="{DynamicResource MaterialDesign.Brush.Primary.Dark}" VerticalAlignment="Center"/>
+                </StackPanel>
+            </Grid>
+            <materialDesign:RatingBar x:Name="CustomRatingBar" Grid.Row="1" HorizontalAlignment="Right" IsReadOnly="True" Margin="0,0,20,0"
+                                      Max="5"
+                                      Orientation="Horizontal"
+                                      Value="2">
+                <materialDesign:RatingBar.ValueItemTemplate >
+                    <DataTemplate DataType="system:Int32">
+                        <Grid>
+                            <materialDesign:PackIcon Width="24"
+                                                     Height="24"
+                                                     Kind="Heart" />
+                        </Grid>
+                    </DataTemplate>
+                </materialDesign:RatingBar.ValueItemTemplate>
+            </materialDesign:RatingBar>
+            <components:SudokuBoardView Grid.Row="2" DataContext="{Binding BoardViewModel}" HorizontalAlignment="Center"
+                                        Height="340" Width="340"/>
             
+        </Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Style="{StaticResource MaterialDesignIconForegroundButton}" HorizontalAlignment="Left" VerticalAlignment="Center">
+                <materialDesign:PackIcon Kind="ArrowBack"
+                                         Foreground="{ DynamicResource MaterialDesign.Brush.Primary.Dark }" />
+            </Button>
+            <StackPanel Orientation="Horizontal" Grid.Column="1"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center">
+                <Label Content="Difficulty:"
+                       Foreground="{DynamicResource MaterialDesign.Brush.Primary.Dark }" />
+                <Label Content="{Binding BoardService.Board.Difficulty }"
+                       Foreground="{DynamicResource MaterialDesign.Brush.Primary.Dark }" />
+
+            </StackPanel>
+            <materialDesign:Chip Content="1500"
+                                 Grid.Column="2"
+                                 HorizontalAlignment="Right"
+                                 Margin="0,0,15,0"
+                                 Foreground="{DynamicResource MaterialDesign.Brush.Primary.Dark}"
+                                 IconBackground="{DynamicResource PrimaryHueDarkBrush}"
+                                 IconForeground="{DynamicResource PrimaryHueDarkForegroundBrush}">
+                <materialDesign:Chip.Icon>
+                    <materialDesign:PackIcon Kind="AlphaSCircle" />
+                </materialDesign:Chip.Icon>
+            </materialDesign:Chip>
+        </Grid>
+        
     </Grid>
 </UserControl>

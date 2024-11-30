@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace SudoWorld.ViewModel.Core
 {
-    public class BaseViewModel:ObservableObject
+    public class BaseViewModel : ObservableObject
     {
-         
+        public virtual void Dispose() { }
+        public virtual async Task Initialize() { }
     }
 }

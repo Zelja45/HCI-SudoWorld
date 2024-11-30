@@ -10,8 +10,8 @@ namespace SudoWorld.Model
     {
         private List<int> _values;
         private List<int> _solution;
-        public List<int> Values { get; set; }
-        public List<int> Solution { get; set; }
+        public List<int> Values { get=>_values; set { _values = value; } }
+        public List<int> Solution { get=>_solution; set { _solution = value; } }
 
         public SudokuGrid(List<int> values,List<int> soultion) 
         {

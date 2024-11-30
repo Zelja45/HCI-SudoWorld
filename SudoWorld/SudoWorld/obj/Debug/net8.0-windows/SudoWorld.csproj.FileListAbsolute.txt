@@ -42,3 +42,5 @@ C:\Users\Nikola\Desktop\HCI-SudoWorld\SudoWorld\SudoWorld\obj\Debug\net8.0-windo
 C:\Users\Nikola\Desktop\HCI-SudoWorld\SudoWorld\SudoWorld\obj\Debug\net8.0-windows\View\Components\SudokuGridView.g.cs
 C:\Users\Nikola\Desktop\HCI-SudoWorld\SudoWorld\SudoWorld\obj\Debug\net8.0-windows\View\Components\SudokuCellView.baml
 C:\Users\Nikola\Desktop\HCI-SudoWorld\SudoWorld\SudoWorld\obj\Debug\net8.0-windows\View\Components\SudokuGridView.baml
+C:\Users\Nikola\Desktop\HCI-SudoWorld\SudoWorld\SudoWorld\obj\Debug\net8.0-windows\View\Components\SudokuBoardView.g.cs
+C:\Users\Nikola\Desktop\HCI-SudoWorld\SudoWorld\SudoWorld\obj\Debug\net8.0-windows\View\Components\SudokuBoardView.baml

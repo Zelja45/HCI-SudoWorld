@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 
 namespace SudoWorld.ViewModel
 {
-    class SudokuGridViewModel:BaseViewModel
+    public class SudokuGridViewModel:BaseViewModel
     {
         private int _gridId;
         public int GridId { get { return _gridId; } }
 
-        private ObservableCollection<SudokuCellViewModel> sudokuCellViewModels;
+        public ObservableCollection<SudokuCellViewModel> sudokuCellViewModels;
 
-        public ObservableCollection<SudokuCellViewModel> SudokuCellViewModels { get; }
+        public ObservableCollection<SudokuCellViewModel> SudokuCellViewModels { get=>sudokuCellViewModels; }
 
         public SudokuGridViewModel(List<int> values, int gridId)
         {

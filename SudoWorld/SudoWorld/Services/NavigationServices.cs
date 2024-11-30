@@ -11,7 +11,7 @@ namespace SudoWorld.Services
     public interface INavigationService
     {
         BaseViewModel CurrentView { get; }
-        void NavigateTo<T>() where T : BaseViewModel;
+        Task NavigateTo<T>() where T : BaseViewModel;
     }
     public class NavigationServices:ObservableObject, INavigationService    
     {
@@ -31,12 +31,15 @@ namespace SudoWorld.Services
         {
             _viewModelFactory= viewModelFactory;
         }
-        public void NavigateTo<TBaseViewModel>() where TBaseViewModel : BaseViewModel
+        public async Task NavigateTo<TBaseViewModel>() where TBaseViewModel : BaseViewModel
         {
+            if (_currentView != null)
+            {
+                CurrentView!.Dispose();
+            }
             BaseViewModel viewModel=_viewModelFactory.Invoke(typeof(TBaseViewModel));
+            await viewModel.Initialize();
             CurrentView = viewModel;    
-
-            
         }
     }
 }

@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace SudoWorld.ViewModel
 {
-    class SudokuCellViewModel:BaseViewModel
+   public  class SudokuCellViewModel:BaseViewModel
     {
         private int _gridId;
         private int _cellId;
-        public int  GridId { get; }
-        public int CellId { get; }
+        public int  GridId { get=>_gridId; }
+        public int CellId { get=>_cellId; }
         private int _initialValue;
 
         private string _cellValueToShow="";
@@ -32,8 +32,11 @@ namespace SudoWorld.ViewModel
             _initialValue = initialValue;
             _cellId= cellId;
             _gridId= gridId;
-            CellWriteable=initialValue == 0;
+            CellWriteable=initialValue==0;
             CellValueToShow = initialValue == 0 ? "" : initialValue.ToString();
+            IsTmpValue = false;
+            IsSelected=false;
+            IsValueValid = initialValue!=0;
         } 
         
         public void selectDeselect()
@@ -51,6 +54,10 @@ namespace SudoWorld.ViewModel
                     BoardCellMediatorService.NotifyBoardSelectedCellIndexChanged(new Model.CellIndex(GridId, CellId));
                 }
             }
+        }
+        public void otherCellIsSelected()
+        {
+            IsSelected = false;
         }
         public void writeTmpValue(int value)
         {

@@ -75,11 +75,11 @@
                               VerticalAlignment="Stretch"
                               Grid.Column="1"
                               Grid.Row="5" />
-        <local:SudokuCellView HorizontalAlignment="Stretch"
+        <local:SudokuCellView  DataContext="{Binding SudokuCellViewModels[7]}" HorizontalAlignment="Stretch"
                               VerticalAlignment="Stretch"
                               Grid.Column="3"
                               Grid.Row="5" />
-        <local:SudokuCellView HorizontalAlignment="Stretch"
+        <local:SudokuCellView  DataContext="{Binding SudokuCellViewModels[8]}" HorizontalAlignment="Stretch"
                               VerticalAlignment="Stretch"
                               Grid.Column="5"
                               Grid.Row="5" />

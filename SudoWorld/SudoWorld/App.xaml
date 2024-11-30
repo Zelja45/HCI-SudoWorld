@@ -10,7 +10,7 @@
         
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <materialDesign:CustomColorTheme BaseTheme="Inherit"
+                <materialDesign:CustomColorTheme BaseTheme="Light"
                                              ColorAdjustment="{materialDesign:ColorAdjustment}"
                                              PrimaryColor="#007a91"
                                              SecondaryColor="#676f73" />

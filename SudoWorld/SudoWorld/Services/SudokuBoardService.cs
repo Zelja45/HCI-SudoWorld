@@ -12,7 +12,7 @@ namespace SudoWorld.Services
     {
         private SudokuBoard _board;
         
-        public  SudokuBoard Board { get; set; }
+        public  SudokuBoard Board { get=>_board; set { _board = value; } }
         public async Task GetNewSudokuBoard()
         {
             _board=await new SudokuValuesProvider().getSudokuGrid();

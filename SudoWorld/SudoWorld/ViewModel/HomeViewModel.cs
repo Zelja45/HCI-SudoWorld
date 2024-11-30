@@ -22,7 +22,7 @@ namespace SudoWorld.ViewModel
         {
             Navigation = navService;
             NavigateToRegisterCommand = new RelayCommand(o => { Navigation.NavigateTo<RegisterViewModel>(); }, o => true);
-            NavigateToNewGameCommand = new RelayCommand(o => { Navigation.NavigateTo<SudokuGameViewModel>(); }, o => true);
+            NavigateToNewGameCommand = new RelayCommand(async o =>  { await Navigation.NavigateTo<SudokuGameViewModel>(); }, o => true);
         }
     }
 }

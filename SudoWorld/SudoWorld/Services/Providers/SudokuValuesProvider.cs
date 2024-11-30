@@ -30,12 +30,15 @@ namespace SudoWorld.Services.Providers
             if (response.IsSuccessStatusCode)
             {
                 string jsonString = await response.Content.ReadAsStringAsync();
+                
                 using (JsonDocument doc = JsonDocument.Parse(jsonString))
                 {
                     var root = doc.RootElement.GetProperty("newboard");
 
                     var boards = root.GetProperty("grids");
                     var board = boards[0];
+
+                    Console.WriteLine(board);
 
                     var value = ParseToListOfLists(board.GetProperty("value"));
                     var solution = ParseToListOfLists(board.GetProperty("solution"));
@@ -59,14 +62,12 @@ namespace SudoWorld.Services.Providers
                 {
                     List<int> valuesGrid = new List<int>();
                     List<int> solutionGrid = new List<int>();
-
-
                     for (int x = 0; x < 3; x++)
                     {
                         for (int y = 0; y < 3; y++)
                         {
-                            valuesGrid[x + y * 3] = values[i + x][j + y];
-                            solutionGrid[x + y * 3] = solution[i + x][j + y];
+                            valuesGrid.Add(values[i + x][j + y]);
+                            solutionGrid.Add(  solution[i + x][j + y]);
                         }
                     }
 

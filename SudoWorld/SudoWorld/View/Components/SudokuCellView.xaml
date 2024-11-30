@@ -9,7 +9,7 @@
     <Grid>
         <TextBlock ClipToBounds="True"
                    FontSize="28"
-                   Background="Red"
+                  
                    FontWeight="Regular"
                    Text="{Binding CellValueToShow}"
                    MouseLeftButtonUp="TextBlock_MouseLeftButtonUp"
@@ -32,6 +32,13 @@
                                      Value="True">
                             <Setter Property="Background"
                                     Value="{DynamicResource MaterialDesign.Brush.Secondary.Light}" />
+
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding IsSelected}"
+                                     Value="False">
+                            <Setter Property="Background"
+                                    Value="Transparent" />
+
                         </DataTrigger>
                         <DataTrigger Binding="{Binding IsValueValid}"
                                      Value="False">

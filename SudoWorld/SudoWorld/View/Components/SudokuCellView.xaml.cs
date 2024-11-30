@@ -28,7 +28,7 @@ namespace SudoWorld.View.Components
 
         private void TextBlock_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
-            if (sender is TextBox && DataContext is SudokuCellViewModel vm)
+            if (sender is TextBlock && DataContext is SudokuCellViewModel vm)
             {
                 vm.selectDeselect();
             }

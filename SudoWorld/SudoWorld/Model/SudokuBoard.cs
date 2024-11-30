@@ -10,8 +10,8 @@ namespace SudoWorld.Model
     {
         private List<SudokuGrid> _grids;
         private String _difficulty;
-        public String Difficulty { get; set; }
-        public List<SudokuGrid> Grids { get; set; }
+        public String Difficulty { get=>_difficulty;  }
+        public List<SudokuGrid> Grids { get => _grids; set { _grids = value; } }
 
         public SudokuBoard(List<SudokuGrid> grids,String difficulty) 
         {

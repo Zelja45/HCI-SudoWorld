@@ -11,7 +11,7 @@ namespace SudoWorld.Model
         private int _gridId;
         private int _cellId;
        
-        public int GridId { get; }
+        public int GridId { get { return _gridId; } }
         public int CellId { get { return _cellId; } }
 
         public CellIndex(int gridId, int cellId)
