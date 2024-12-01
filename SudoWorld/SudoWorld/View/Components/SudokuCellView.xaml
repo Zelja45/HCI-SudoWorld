@@ -53,8 +53,7 @@
                         </DataTrigger>
                         <DataTrigger Binding="{Binding IsTmpValue}"
                                      Value="True">
-                            <Setter Property="Background"
-                                    Value="Transparent" />
+                            
                             <Setter Property="Foreground"
                                     Value="{DynamicResource MaterialDesign.Brush.Secondary.Dark}" />
                         </DataTrigger>

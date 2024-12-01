@@ -85,8 +85,8 @@ namespace SudoWorld.ViewModel
             {
                 selectDeselect();
                 CellValueToShow = "";
-                IsTmpValue = false; 
-                IsValueValid= false;
+                IsValueValid = false;
+                IsTmpValue = false;
             }
         }
 

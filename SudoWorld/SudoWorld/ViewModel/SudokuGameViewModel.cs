@@ -13,6 +13,7 @@ namespace SudoWorld.ViewModel
         public SudokuBoardViewModel? BoardViewModel { get; set; }
         private SudokuBoardService _boardService;
         public SudokuBoardService BoardService { get => _boardService; }
+        public RelayCommand GoBackToHomeView { get; set; }
 
         private INavigationService _navigationService;
 
@@ -20,6 +21,7 @@ namespace SudoWorld.ViewModel
         {
             _boardService = boardService;
             _navigationService = navigationService;
+            GoBackToHomeView = new RelayCommand(o => _navigationService.NavigateTo<HomeViewModel>(), p => true);
         }
         public override void Dispose()
         {
