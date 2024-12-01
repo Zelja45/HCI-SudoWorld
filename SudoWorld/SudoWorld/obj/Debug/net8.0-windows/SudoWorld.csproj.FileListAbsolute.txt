@@ -32,7 +32,6 @@ C:\Users\Nikola\Desktop\HCI-SudoWorld\SudoWorld\SudoWorld\obj\Debug\net8.0-windo
 C:\Users\Nikola\Desktop\HCI-SudoWorld\SudoWorld\SudoWorld\obj\Debug\net8.0-windows\View\RegisterView.baml
 C:\Users\Nikola\Desktop\HCI-SudoWorld\SudoWorld\SudoWorld\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\Nikola\Desktop\HCI-SudoWorld\SudoWorld\SudoWorld\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\Nikola\Desktop\HCI-SudoWorld\SudoWorld\SudoWorld\obj\Debug\net8.0-windows\Resources\Styles\ButtonStyles.baml
 C:\Users\Nikola\Desktop\HCI-SudoWorld\SudoWorld\SudoWorld\obj\Debug\net8.0-windows\Resources\AppResources.baml
 C:\Users\Nikola\Desktop\HCI-SudoWorld\SudoWorld\SudoWorld\obj\Debug\net8.0-windows\View\SudokuGameView.g.cs
 C:\Users\Nikola\Desktop\HCI-SudoWorld\SudoWorld\SudoWorld\obj\Debug\net8.0-windows\View\SudokuGameView.baml
@@ -44,3 +43,4 @@ C:\Users\Nikola\Desktop\HCI-SudoWorld\SudoWorld\SudoWorld\obj\Debug\net8.0-windo
 C:\Users\Nikola\Desktop\HCI-SudoWorld\SudoWorld\SudoWorld\obj\Debug\net8.0-windows\View\Components\SudokuGridView.baml
 C:\Users\Nikola\Desktop\HCI-SudoWorld\SudoWorld\SudoWorld\obj\Debug\net8.0-windows\View\Components\SudokuBoardView.g.cs
 C:\Users\Nikola\Desktop\HCI-SudoWorld\SudoWorld\SudoWorld\obj\Debug\net8.0-windows\View\Components\SudokuBoardView.baml
+C:\Users\Nikola\Desktop\HCI-SudoWorld\SudoWorld\SudoWorld\bin\Debug\net8.0-windows\Newtonsoft.Json.dll

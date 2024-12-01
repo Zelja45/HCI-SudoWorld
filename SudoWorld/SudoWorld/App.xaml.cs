@@ -32,7 +32,7 @@ namespace SudoWorld
             services.AddSingleton<SudokuGameViewModel>();
             services.AddSingleton<INavigationService, NavigationServices>();
             services.AddSingleton<SudokuBoardService>();
-
+            services.AddSingleton<PlayersInfoService>();
             services.AddSingleton<Func<Type,BaseViewModel>>(provider=>viewModelType=>(BaseViewModel)provider.GetRequiredService(viewModelType));//function for getting specific viewmodel
 
             _serviceProvider =services.BuildServiceProvider();

@@ -10,15 +10,15 @@ namespace SudoWorld.Services
 {
     public interface INavigationService
     {
-        BaseViewModel CurrentView { get; }
+        BaseViewModel? CurrentView { get; }
         Task NavigateTo<T>() where T : BaseViewModel;
     }
     public class NavigationServices:ObservableObject, INavigationService    
     {
-        private BaseViewModel _currentView;
+        private BaseViewModel? _currentView;
         private Func<Type, BaseViewModel> _viewModelFactory;
 
-        public BaseViewModel CurrentView
+        public BaseViewModel? CurrentView
         {
             get { return _currentView; }
             private set
@@ -39,6 +39,11 @@ namespace SudoWorld.Services
             }
             BaseViewModel viewModel=_viewModelFactory.Invoke(typeof(TBaseViewModel));
             await viewModel.Initialize();
+            if (_currentView != null && _currentView.GetType() == typeof(TBaseViewModel))
+            {
+                CurrentView = null;
+                await Task.Delay(5); //to catch this null if views before and after are same and can call property changed
+            }
             CurrentView = viewModel;    
         }
     }

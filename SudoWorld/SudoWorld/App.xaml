@@ -18,7 +18,7 @@
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.ObsoleteBrushes.xaml" />
 
                 <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesign2.Defaults.xaml" />
-                <ResourceDictionary Source="Resources/Styles/ButtonStyles.xaml" />
+                
                 <ResourceDictionary Source="Resources/AppResources.xaml" />
 
                 
@@ -29,6 +29,10 @@
                          UriSource="Resources/sudoku-64-white.png" />
             <BitmapImage x:Key="LogoBlue"
                          UriSource="Resources/sudoku-64-blue.png" />
+            <BitmapImage x:Key="TrophyIcon"
+                         UriSource="Resources/trophy-100-icon.png" />
+            <BitmapImage x:Key="SadIcon"
+                         UriSource="Resources/sad-100-icon.png" />
 
 
             <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">

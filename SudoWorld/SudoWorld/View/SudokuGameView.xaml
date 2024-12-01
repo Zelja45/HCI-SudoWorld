@@ -10,6 +10,70 @@
              d:DesignHeight="600"
              d:DesignWidth="400">
     <Grid>
+        <materialDesign:DialogHost VerticalAlignment="Stretch"
+                                   CloseOnClickAway="False"
+                                   DialogTheme="Inherit"
+                                   IsOpen="{Binding BoardViewModel.IsDialogOpened}"
+                                   OverlayBackground="{DynamicResource MaterialDesign.Brush.Secondary.Light}"
+                                   Placement="Center">
+            <materialDesign:DialogHost.DialogContent>
+                <StackPanel Width="220"
+                            Margin="16">
+                    <Image Width="100"
+                           Height="100"
+                           >
+                        <Image.Style>
+                            <Style TargetType="Image">
+                                
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding BoardViewModel.IsWinningGame}"
+                                                 Value="True">
+                                        <Setter Property="Source"
+                                                Value="{StaticResource TrophyIcon}" />
+                                    </DataTrigger>
+                                    <DataTrigger Binding="{Binding BoardViewModel.IsWinningGame}"
+                                                 Value="False">
+                                        <Setter Property="Source"
+                                                Value="{StaticResource SadIcon}" />
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Image.Style>
+                    </Image>
+                    <StackPanel>
+                        <TextBlock TextWrapping="Wrap"
+                                   FontSize="20"
+                                   FontWeight="Medium"
+                                   TextAlignment="Center"
+                                   Foreground="{DynamicResource MaterialDesign.Brush.Primary}"
+                                   Text="{Binding BoardViewModel.DialogTextTitle}" />
+                        <TextBlock TextWrapping="Wrap"
+                                   Margin="10 8 10 0"
+                                   FontSize="16"
+                                   FontWeight="Regular"
+                                   TextAlignment="Center"
+                                   Foreground="{DynamicResource MaterialDesign.Brush.Primary.Light}"
+                                   Text="{Binding BoardViewModel.DialogTextSubtitle}" />
+                    </StackPanel>
+                    <StackPanel HorizontalAlignment="Center"
+                                Orientation="Vertical"
+                                Margin="0 20 0 0">
+                        <Button Command="{Binding GoBackToHomeView}"
+                                Content="GO HOME"
+                                Style="{StaticResource MaterialDesignOutlinedButton}">
+                        </Button>
+                        <Border Height="10" />
+                        <Button Width="180"
+                                HorizontalAlignment="Stretch"
+                                Command="{Binding StartNewGameCommand}"
+                                Content="NEW GAME"
+                                Style="{StaticResource MaterialDesignRaisedButton}">
+                        </Button>
+                        
+                    </StackPanel>
+                </StackPanel>
+            </materialDesign:DialogHost.DialogContent>
+            <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto" />
             <RowDefinition Height="auto" />
@@ -36,7 +100,7 @@
                            Foreground="{DynamicResource MaterialDesign.Brush.Primary.Dark }" />
 
                 </StackPanel>
-                <materialDesign:Chip Content="1500"
+                <materialDesign:Chip Content="{Binding BoardViewModel.TokensBalance}"
                                      Grid.Column="2"
                                      HorizontalAlignment="Right"
                                      Margin="0,0,15,0"
@@ -86,7 +150,7 @@
                 <StackPanel Orientation="Vertical">
                     <materialDesign:Badged Badge="100"
                                            BadgeColorZoneMode="Light">
-                        <Button  Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}">
+                        <Button  Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}" Command="{Binding BoardViewModel.OnHintClicked}">
                             <materialDesign:PackIcon Width="20"
                                                      Height="20"
                                                      Kind="QuestionMark" />
@@ -160,6 +224,7 @@
                 </ItemsControl.ItemTemplate>
             </ItemsControl>
         </Grid>
-        
+    </Grid>
+        </materialDesign:DialogHost>
     </Grid>
 </UserControl>

@@ -1,0 +1,24 @@
+{
+  "TokensBalance": 250,
+  "Easy": {
+    "Difficulty": "Easy",
+    "BestTime": "10675199.02:48:05.4775807",
+    "PlayedGames": 0,
+    "AverageTime": "00:00:00",
+    "AverageMissedValues": 0.0
+  },
+  "Medium": {
+    "Difficulty": "Medium",
+    "BestTime": "10675199.02:48:05.4775807",
+    "PlayedGames": 0,
+    "AverageTime": "00:00:00",
+    "AverageMissedValues": 0.0
+  },
+  "Hard": {
+    "Difficulty": "Hard",
+    "BestTime": "10675199.02:48:05.4775807",
+    "PlayedGames": 0,
+    "AverageTime": "00:00:00",
+    "AverageMissedValues": 0.0
+  }
+}

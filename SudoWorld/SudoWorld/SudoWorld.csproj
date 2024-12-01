@@ -9,19 +9,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resources\sad-100-icon.png" />
     <None Remove="Resources\sudoku-64-blue.png" />
     <None Remove="Resources\sudoku-64-white.png" />
+    <None Remove="Resources\trophy-100-icon.png" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="MaterialDesignColors" Version="3.1.0" />
     <PackageReference Include="MaterialDesignThemes" Version="5.1.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
   <ItemGroup>
+    <Resource Include="Resources\sad-100-icon.png" />
     <Resource Include="Resources\sudoku-64-blue.png" />
     <Resource Include="Resources\sudoku-64-white.png" />
+    <Resource Include="Resources\trophy-100-icon.png" />
   </ItemGroup>
 
 </Project>
