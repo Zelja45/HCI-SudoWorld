@@ -4,7 +4,6 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:SudoWorld.View"
-             xmlns:controls="clr-namespace:SudoWorld.View.Controls"
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d"
              d:DesignHeight="600"
@@ -13,60 +12,73 @@
             >
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" />
             <RowDefinition Height="*" />
             <RowDefinition Height="auto" />
            
         </Grid.RowDefinitions>
+        <materialDesign:Chip Content="{Binding PlayersInfoService.PlayerInfo.TokensBalance}"
+                             Grid.Column="2"
+                             HorizontalAlignment="Right"
+                             Margin="0,20,15,15"
+                             Foreground="{DynamicResource MaterialDesign.Brush.Primary.Dark}"
+                             IconBackground="{DynamicResource PrimaryHueDarkBrush}"
+                             IconForeground="{DynamicResource PrimaryHueDarkForegroundBrush}">
+            <materialDesign:Chip.Icon>
+                <materialDesign:PackIcon Kind="AlphaSCircle" />
+            </materialDesign:Chip.Icon>
+        </materialDesign:Chip>
         <StackPanel Orientation="Vertical"
-                    HorizontalAlignment="Center"
-                    VerticalAlignment="Center">
-            <Image Grid.Row="0"
+                    Grid.Row="1">
+            <Image
                    HorizontalAlignment="Center"
-                   VerticalAlignment="Bottom"
+                   VerticalAlignment="Top"
                    Source="{StaticResource LogoBlue}"
-                   Height="100"
-                   Width="100" />
-            <TextBlock Text="Tekst"
-                       TextWrapping="Wrap"
-                       Style="{StaticResource MaterialDesignBody1TextBlock}"
-                       Foreground="{DynamicResource MaterialDesign.Brush.Secondary.Light}"
+                   Height="120"
+                   Width="120" />
+            <TextBlock Text="SudoWorld"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       Margin="50,10,50,5"
+                       Style="{StaticResource MaterialDesignHeadline6TextBlock}"
+                       Foreground="{DynamicResource MaterialDesign.Brush.Primary.Dark}" />
+            <TextBlock Text="Challenge your mind with sudoku for all skill levels. Let the fun begin!  " HorizontalAlignment="Center" VerticalAlignment="Center"
+                       TextWrapping="Wrap" TextAlignment="Center" Margin="50,0,50,10"
+                       Style="{StaticResource MaterialDesignBody2TextBlock}"
+                       Foreground="{DynamicResource MaterialDesign.Brush.Primary}"
                       />
+            <TextBlock Text="Your score"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       Margin="50,20,50,10"
+                       Style="{StaticResource  MaterialDesignHeadline6TextBlock}"
+                       Foreground="{DynamicResource MaterialDesign.Brush.Primary.Dark}" />
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Image Source="{StaticResource TrophyIcon}"
+                       Width="35"/>
+                <TextBlock Text="{Binding  PlayersInfoService.PlayerInfo.GetTotalNumOfWins}" VerticalAlignment="Center"
+                       Style="{StaticResource MaterialDesignHeadline6TextBlock}"
+                       Foreground="{DynamicResource MaterialDesign.Brush.Primary.Dark}" />
+            </StackPanel>
         </StackPanel>
-           
-        <Button Grid.Row="1"
-                materialDesign:ButtonAssist.CornerRadius="15"
-                Style="{StaticResource MaterialDesignRaisedButton}"
-                Command="{Binding NavigateToNewGameCommand}"
-                VerticalAlignment="Center" HorizontalAlignment="Center">
-            <TextBlock Text="Play game" />
-        </Button>
-        <materialDesign:ColorZone Padding="10" Grid.Row="2"
-                                  materialDesign:ElevationAssist.Elevation="Dp4"
-                                  ClipToBounds="True"
-                                  CornerRadius="10"
-                                  Mode="PrimaryDark">
-
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="2">
+            <Button  HorizontalAlignment="Center" FontSize="16"
+                    Content="Statistics"
+                     Style="{StaticResource MaterialDesignOutlinedButton}"
+                     materialDesign:ButtonAssist.CornerRadius="{StaticResource GlobalCornerRadius}" BorderThickness="0" Command="{Binding NavigateToStatisticsCommand}">
+            </Button>
+            <Border Height="20" />
+            <Button 
+                    Content="New game" FontSize="16"
+                    Margin="10,10,10,50"
+                    materialDesign:ButtonAssist.CornerRadius="{StaticResource GlobalCornerRadius}"
+                    Style="{StaticResource MaterialDesignRaisedButton}"
+                    Command="{Binding NavigateToNewGameCommand}"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
                 
-                <controls:BottomMenuItem Grid.Column="0"
-                                         Command="{Binding NavigateToRegisterCommand}" 
-                                         Icon="{StaticResource HomeIcon}"
-                                         Foreground="White" />
-                <controls:BottomMenuItem Grid.Column="1"
-                                         Command="{Binding NavigateToRegisterCommand}"
-                                         Icon="{StaticResource AchievementIcon}"
-                                         Foreground="White" />
-                <controls:BottomMenuItem Grid.Column="2"
-                                         Command="{Binding NavigateToRegisterCommand}"
-                                         Icon="{StaticResource LoginIcon}"
-                                         Foreground="White" />
-            </Grid>
-        </materialDesign:ColorZone>
+            </Button>
+        </StackPanel>
+        
     </Grid>
 </UserControl>

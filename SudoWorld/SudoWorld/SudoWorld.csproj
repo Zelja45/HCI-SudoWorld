@@ -12,6 +12,7 @@
     <None Remove="Resources\sad-100-icon.png" />
     <None Remove="Resources\sudoku-64-blue.png" />
     <None Remove="Resources\sudoku-64-white.png" />
+    <None Remove="Resources\sudoku.png" />
     <None Remove="Resources\trophy-100-icon.png" />
   </ItemGroup>
 
@@ -26,6 +27,7 @@
     <Resource Include="Resources\sad-100-icon.png" />
     <Resource Include="Resources\sudoku-64-blue.png" />
     <Resource Include="Resources\sudoku-64-white.png" />
+    <Resource Include="Resources\sudoku.png" />
     <Resource Include="Resources\trophy-100-icon.png" />
   </ItemGroup>
 

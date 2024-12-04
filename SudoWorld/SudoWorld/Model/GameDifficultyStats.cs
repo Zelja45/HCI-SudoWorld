@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,33 +9,27 @@ namespace SudoWorld.Model
 {
     public class GameDifficultyStats
     {
-        private readonly int HARD_TOKEN_VALUE = 200;
-        private readonly int EASY_TOKEN_VALUE = 100;
-        private readonly int MEDIUM_TOKEN_VALUE = 150;
-        
+        public static readonly int HARD_TOKEN_VALUE = 200;
+        public static readonly int EASY_TOKEN_VALUE = 100;
+        public static readonly int MEDIUM_TOKEN_VALUE = 150;
+        private string _bestTimeString;
+        public int TokensForWin { get; set; }
         public string Difficulty { get; set; }
         public TimeSpan BestTime { get; set; }
+        [JsonIgnore]
+        public string BestTimeString { get => BestTime == TimeSpan.MaxValue ? "--:--:--" : BestTime.ToString(); }
         public int PlayedGames { get; set; }
         public TimeSpan AverageTime { get; set; }
         public double AverageMissedValues { get; set; }
 
         public GameDifficultyStats() { }
-        public GameDifficultyStats(string difficulty)
+        public GameDifficultyStats(string difficulty,int tokensForWin)
         {
             Difficulty= difficulty;
             BestTime = TimeSpan.MaxValue;
+            TokensForWin = tokensForWin;
         }
-        public int GetTokensForWin(string difficulty)
-        {
-            if (difficulty.ToLower().Equals(difficulty))
-                return HARD_TOKEN_VALUE;
-            else if (difficulty.ToLower().Equals(difficulty))
-                return EASY_TOKEN_VALUE;
-            else if (difficulty.ToLower().Equals(difficulty))
-                return EASY_TOKEN_VALUE;
-            else
-                return 0;
-        }
+        
 
     }
 }

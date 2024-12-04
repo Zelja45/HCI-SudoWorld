@@ -1,6 +1,7 @@
 ﻿    <Application x:Class="SudoWorld.App"
                  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
                  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"    
              xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              xmlns:local="clr-namespace:SudoWorld"
                 
@@ -25,10 +26,11 @@
                 
 
             </ResourceDictionary.MergedDictionaries>
+            <CornerRadius x:Key="GlobalCornerRadius">15</CornerRadius>
             <BitmapImage x:Key="LogoWhite"
-                         UriSource="Resources/sudoku-64-white.png" />
+                         UriSource="Resources/sudoku.png" />
             <BitmapImage x:Key="LogoBlue"
-                         UriSource="Resources/sudoku-64-blue.png" />
+                         UriSource="Resources/sudoku.png" />
             <BitmapImage x:Key="TrophyIcon"
                          UriSource="Resources/trophy-100-icon.png" />
             <BitmapImage x:Key="SadIcon"
@@ -38,11 +40,11 @@
             <DataTemplate DataType="{x:Type viewModel:HomeViewModel}">
                 <view:HomeView />
             </DataTemplate>
-            <DataTemplate DataType="{x:Type viewModel:RegisterViewModel}">
-                <view:RegisterView />
-            </DataTemplate>
             <DataTemplate DataType="{x:Type viewModel:SudokuGameViewModel}">
                 <view:SudokuGameView />
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type viewModel:StatisticsViewModel}">
+                <view:StatisticsView />
             </DataTemplate>
         </ResourceDictionary>
         

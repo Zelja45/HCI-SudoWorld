@@ -7,7 +7,7 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="View\Components\BottomMenuItem.xaml.cs">
+    <Compile Update="View\Components\StatisticsItemView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\Components\SudokuBoardView.xaml.cs">
@@ -22,7 +22,7 @@
     <Compile Update="View\HomeView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\RegisterView.xaml.cs">
+    <Compile Update="View\StatisticsView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\SudokuGameView.xaml.cs">
@@ -36,7 +36,7 @@
     <Page Update="Resources\AppResources.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="View\Components\BottomMenuItem.xaml">
+    <Page Update="View\Components\StatisticsItemView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\Components\SudokuBoardView.xaml">
@@ -51,7 +51,7 @@
     <Page Update="View\HomeView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="View\RegisterView.xaml">
+    <Page Update="View\StatisticsView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\SudokuGameView.xaml">

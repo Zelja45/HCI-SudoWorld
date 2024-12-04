@@ -28,11 +28,11 @@ namespace SudoWorld
 
             services.AddSingleton<MainViewModel>();
             services.AddSingleton<HomeViewModel>();
-            services.AddSingleton<RegisterViewModel>();
             services.AddSingleton<SudokuGameViewModel>();
             services.AddSingleton<INavigationService, NavigationServices>();
             services.AddSingleton<SudokuBoardService>();
             services.AddSingleton<PlayersInfoService>();
+            services.AddSingleton<StatisticsViewModel>();
             services.AddSingleton<Func<Type,BaseViewModel>>(provider=>viewModelType=>(BaseViewModel)provider.GetRequiredService(viewModelType));//function for getting specific viewmodel
 
             _serviceProvider =services.BuildServiceProvider();

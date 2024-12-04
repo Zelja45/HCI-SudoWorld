@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace SudoWorld.ViewModel
 {
@@ -13,16 +14,25 @@ namespace SudoWorld.ViewModel
       
 
         private INavigationService _navigation;
+
         public INavigationService Navigation { get => _navigation; set { _navigation = value; OnPropertyChanged(); } }
+        public PlayersInfoService PlayersInfoService { get; }
+        public RelayCommand NavigateToStatisticsCommand { get; }
+        public RelayCommand NavigateToNewGameCommand { get; }
+        
 
-        public RelayCommand NavigateToRegisterCommand { get; set; }
-        public RelayCommand NavigateToNewGameCommand { get; set; }
-
-        public HomeViewModel(INavigationService navService)
+        public HomeViewModel(INavigationService navService,PlayersInfoService playersInfoService)
         {
             Navigation = navService;
-            NavigateToRegisterCommand = new RelayCommand(o => { Navigation.NavigateTo<RegisterViewModel>(); }, o => true);
-            NavigateToNewGameCommand = new RelayCommand(async o =>  { await Navigation.NavigateTo<SudokuGameViewModel>(); }, o => true);
+            PlayersInfoService = playersInfoService;
+            NavigateToStatisticsCommand = new RelayCommand(o => { Navigation.NavigateTo<StatisticsViewModel>(); }, o => true);
+            NavigateToNewGameCommand = new RelayCommand(async o => { try { await Navigation.NavigateTo<SudokuGameViewModel>(); } catch (Exception)
+                {
+                    MessageBox.Show("Something went wrong. Try again!",
+                    "Error",
+                    MessageBoxButton.OK,
+                    MessageBoxImage.Error);
+                } }, o => true);
         }
     }
 }

@@ -51,7 +51,7 @@ namespace SudoWorld.Services
             stats.AverageMissedValues = (stats.AverageMissedValues*stats.PlayedGames+missedValues)/(stats.PlayedGames+1);
             stats.AverageTime = new TimeSpan((stats.AverageTime.Ticks * stats.PlayedGames + playTime.Ticks) / (stats.PlayedGames + 1));
             stats.PlayedGames++;
-            PlayerInfo.TokensBalance += stats.GetTokensForWin(difficulty);
+            PlayerInfo.TokensBalance += stats.TokensForWin;
             WritePlayerInfo();
         }
         public int UseHint()

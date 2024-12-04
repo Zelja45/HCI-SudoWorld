@@ -42,6 +42,7 @@ namespace SudoWorld.Services
         public int GetHintValue(int gridId,int cellId)
         {
             _board.Grids[gridId].Values[cellId] = _board.Grids[gridId].Solution[cellId];
+            _valuesToAdd--;
             return _board.Grids[gridId].Solution[cellId];
         }
         public bool IsSudokuBoardCompleted()

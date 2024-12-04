@@ -148,7 +148,7 @@
                 </StackPanel>
                 <Border Style="{StaticResource BorderStyle}" />
                 <StackPanel Orientation="Vertical">
-                    <materialDesign:Badged Badge="100"
+                    <materialDesign:Badged Badge="50"
                                            BadgeColorZoneMode="Light">
                         <Button  Style="{StaticResource MaterialDesignFloatingActionMiniLightButton}" Command="{Binding BoardViewModel.OnHintClicked}">
                             <materialDesign:PackIcon Width="20"

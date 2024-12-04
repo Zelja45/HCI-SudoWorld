@@ -1,20 +1,23 @@
 {
-  "TokensBalance": 250,
+  "TokensBalance": 350,
   "Easy": {
+    "TokensForWin": 100,
     "Difficulty": "Easy",
-    "BestTime": "10675199.02:48:05.4775807",
+    "BestTime": "18:30:00",
     "PlayedGames": 0,
-    "AverageTime": "00:00:00",
+    "AverageTime": "00:18:30",
     "AverageMissedValues": 0.0
   },
   "Medium": {
+    "TokensForWin": 150,
     "Difficulty": "Medium",
-    "BestTime": "10675199.02:48:05.4775807",
-    "PlayedGames": 0,
-    "AverageTime": "00:00:00",
-    "AverageMissedValues": 0.0
+    "BestTime": "00:16:12",
+    "PlayedGames": 1,
+    "AverageTime": "00:16:12",
+    "AverageMissedValues": 2.0
   },
   "Hard": {
+    "TokensForWin": 200,
     "Difficulty": "Hard",
     "BestTime": "10675199.02:48:05.4775807",
     "PlayedGames": 0,
